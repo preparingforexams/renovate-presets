@@ -3,6 +3,7 @@
     "config:base"
   ],
   "prHourlyLimit": 0,
+  "stabilityDays": 2,
   "automergeStrategy": "rebase",
   "packageRules": [
     {
