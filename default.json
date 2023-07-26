@@ -1,5 +1,5 @@
 {
   "extends": [
-    "github>BlindfoldedSurgeons/renovate-config"
+    "github>BlindfoldedSurgery/renovate-config"
   ]
 }
