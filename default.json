@@ -1,5 +1,17 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>BlindfoldedSurgery/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDepNames": [
+        "BlindfoldedSurgery/actions-container"
+      ],
+      "replacementName": "preparingforexams/actions-container"
+    }
   ]
 }
